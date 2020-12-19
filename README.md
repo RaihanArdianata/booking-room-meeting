@@ -11,7 +11,7 @@
 * http://localhost:5000/booking/myBooking?id=2 :put
 * http://localhost:5000/booking/myBooking?id=2 :delete
 
-* http://localhost:5000/rooms:get
+* http://localhost:5000/rooms :get
 
 Install the dependencies and devDependencies and start the server.
 
