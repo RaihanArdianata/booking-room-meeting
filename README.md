@@ -5,13 +5,13 @@
 * http://localhost:5000/user/login :post
 * http://localhost:5000/user/register :post
 
-*http://localhost:5000/booking :get
-*http://localhost:5000/booking/myBooking :get
-*http://localhost:5000/booking/newBook :post
-*http://localhost:5000/booking/myBooking?id=2 :put
-*http://localhost:5000/booking/myBooking?id=2 :delete
+* http://localhost:5000/booking :get
+* http://localhost:5000/booking/myBooking :get
+* http://localhost:5000/booking/newBook :post
+* http://localhost:5000/booking/myBooking?id=2 :put
+* http://localhost:5000/booking/myBooking?id=2 :delete
 
-*http://localhost:5000/rooms:get
+* http://localhost:5000/rooms:get
 
 Install the dependencies and devDependencies and start the server.
 
