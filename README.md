@@ -59,7 +59,9 @@ $ sequelize db:seed:all
 ```
 
 #ENV template
+```sh
 SECRET=
 PORT=
 PASS=
 EMAIL=
+```
