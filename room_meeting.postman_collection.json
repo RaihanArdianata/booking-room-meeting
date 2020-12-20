@@ -96,7 +96,41 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": ""
+							"raw": "http://localhost:5000/user/:id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllUser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"user"
+							]
 						}
 					},
 					"response": []
@@ -113,7 +147,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJyYWloYW4uYXJkaWFuYXRhQGdtYWlsLmNvbSIsImlhdCI6MTYwODQxNzAyMH0.ZItO65SCk0fUcIAHUvGaQxV4_81aEsWpjkQ_ijsCWHM",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJyYWloYW4uYXJkaWFuYXRhQGdtYWlsLmNvbSIsImlhdCI6MTYwODQ4MzczNH0.z_tvOiEC-ME5Sd8RYLkahCzqxu0RFUFk3B7J2ezh7hY",
 								"type": "text"
 							}
 						],
@@ -138,7 +172,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJyYWloYW4uYXJkaWFuYXRhQGdtYWlsLmNvbSIsImlhdCI6MTYwODQxNzAyMH0.ZItO65SCk0fUcIAHUvGaQxV4_81aEsWpjkQ_ijsCWHM",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJyYWloYW4uYXJkaWFuYXRhQGdtYWlsLmNvbSIsImlhdCI6MTYwODQ4MzczNH0.z_tvOiEC-ME5Sd8RYLkahCzqxu0RFUFk3B7J2ezh7hY",
 								"type": "text"
 							}
 						],
