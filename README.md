@@ -36,4 +36,9 @@ Install the dependencies and devDependencies and start the server.
 $ cd booking-room-meeting
 $ npm install
 $ node ./bin/http.js || nodemon ./bin/http.js jika sudah install global
+
+//after that creat db and run seeder
+$ sequelize db:create
+$ sequelize db:migrate
+$ sequelize db:seed:all
 ```
