@@ -7,6 +7,7 @@
 
 ### postman doc
 * https://documenter.getpostman.com/view/3536034/TVssk95M
+* <a href="https://github.com/RaihanArdianata/booking-room-meeting/blob/master/room_meeting.postman_collection.json">collection postman json</a>
 ### route
 
 * http://localhost:5000/user/login :post
