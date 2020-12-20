@@ -4,7 +4,7 @@
 [![N|Solid](https://duckduckgo.com/i/a65969b4.png)]()
 [![N|Solid](https://jwt.io/img/pic_logo.svg)]()
 [![N|Solid](https://duckduckgo.com/i/d006c491.png)]()
-[![N|Solid](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.nTRBhzKoS_yTCNP591vKjAHaHa%26o%3D6%26pid%3DApi&f=1)]()
+[![N|Solid](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.nTRBhzKoS_yTCNP591vKjAHaHa%26o%3D6%26pid%3DApi&f=1 =100)]()
 
 
 ### postman doc
