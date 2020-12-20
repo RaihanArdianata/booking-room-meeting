@@ -58,7 +58,7 @@ $ sequelize db:migrate
 $ sequelize db:seed:all
 ```
 
-#ENV template
+### ENV template
 ```sh
 SECRET=
 PORT=
