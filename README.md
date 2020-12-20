@@ -5,7 +5,9 @@
 [![N|Solid](https://jwt.io/img/pic_logo.svg)]()
 [![N|Solid](https://duckduckgo.com/i/d006c491.png)]()
 
-### Route
+### postman doc
+* https://documenter.getpostman.com/view/3536034/TVssk95M
+### route
 
 * http://localhost:5000/user/login :post
 * http://localhost:5000/user/register :post
