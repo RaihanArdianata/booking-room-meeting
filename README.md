@@ -5,7 +5,7 @@
   <a href="">
     <img src="https://duckduckgo.com/i/d006c491.png" width="100"> 
   </a>
-  <a href="">
+  <a href="http://sequelize.org/">
     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.nTRBhzKoS_yTCNP591vKjAHaHa%26o%3D6%26pid%3DApi&f=1" width="100">
   </a>
   <a href="">
