@@ -24,6 +24,8 @@
 * token = jwt
 * momment = format tanggal
 * nodemailer = kirim email
+* db = sql
+* sequelize
 
 Install the dependencies and devDependencies and start the server.
 
