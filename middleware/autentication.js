@@ -4,7 +4,6 @@ const { users } = require('../models')
 function autentication(req, res, next) {
   try {
     const decoded = decode_token(req.headers.token)
-    console.log(decoded);
     users.findOne({
       where: {
         id: decoded.id

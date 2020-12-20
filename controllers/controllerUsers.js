@@ -4,6 +4,15 @@ const {decode_password} = require('../helpers/bcyript')
 
 
 class Controller{
+  static async getAlluser(req, res, next){
+    try {
+      const result = await users.findAll()
+      res.status(200).json(result)
+    } catch (error) {
+      next(error)
+    }
+  }
+
   static async register(req, res, next){
     try {
       const result = await users.create(req.body)
@@ -61,7 +70,7 @@ class Controller{
   static async delete(req, res, next){
     const id = req.params.id
     try {
-      const result = await users.destroy({where: id})
+      const result = await users.destroy({where: {id}})
       res.status(200).json(result)
     } catch (error) {
       next(error)

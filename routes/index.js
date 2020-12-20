@@ -7,8 +7,7 @@ const autentication = require('../middleware/autentication')
 
 
 routes.use('/user', Users)
-routes.use(autentication)
-routes.use('/rooms', Rooms)
-routes.use('/booking', Bookings)
+routes.use('/rooms',autentication, Rooms)
+routes.use('/booking',autentication, Bookings)
 
 module.exports = routes

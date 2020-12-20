@@ -7,8 +7,8 @@ const Op = Sequelize.Op
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'raihanardi69@gmail.com',
-    pass: 'taepimbniftzpres'
+    user: process.env.EMAIL || 'raihanardi69@gmail.com',
+    pass: process.env.PASS || 'taepimbniftzpres'
   }
 });
 
