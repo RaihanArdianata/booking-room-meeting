@@ -1,0 +1,367 @@
+{
+	"info": {
+		"_postman_id": "63a1782f-eadc-48d5-aa48-c37580c2d991",
+		"name": "room_meeting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "raihan.ardianata@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "user",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://californian-basin.herokuapp.com/user/login",
+							"protocol": "https",
+							"host": [
+								"californian-basin",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"user",
+								"login"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "user@mail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "user",
+									"type": "text"
+								},
+								{
+									"key": "photo",
+									"value": "\"\"",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://californian-basin.herokuapp.com/user/register",
+							"protocol": "https",
+							"host": [
+								"californian-basin",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://californian-basin.herokuapp.com/user/:id",
+							"protocol": "https",
+							"host": [
+								"californian-basin",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"user",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "21"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllUser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://californian-basin.herokuapp.com/user",
+							"protocol": "https",
+							"host": [
+								"californian-basin",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "booking",
+			"item": [
+				{
+					"name": "getAll",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzEsImVtYWlsIjoicmFpaGFuLmFyZGlhbmF0YUBnbWFpbC5jb20iLCJpYXQiOjE2MDg3NTcxMTF9.zAsK_cHUtpGW8A67YS1wJrZdHnF_wgo1nsWoHGyBh5o",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://californian-basin.herokuapp.com/booking",
+							"protocol": "https",
+							"host": [
+								"californian-basin",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"booking"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getByUserLogin",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzEsImVtYWlsIjoicmFpaGFuLmFyZGlhbmF0YUBnbWFpbC5jb20iLCJpYXQiOjE2MDg3NTcxMTF9.zAsK_cHUtpGW8A67YS1wJrZdHnF_wgo1nsWoHGyBh5o",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://californian-basin.herokuapp.com/booking/myBooking",
+							"protocol": "https",
+							"host": [
+								"californian-basin",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"booking",
+								"myBooking"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzEsImVtYWlsIjoicmFpaGFuLmFyZGlhbmF0YUBnbWFpbC5jb20iLCJpYXQiOjE2MDg3NTcxMTF9.zAsK_cHUtpGW8A67YS1wJrZdHnF_wgo1nsWoHGyBh5o",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "room_id",
+									"value": "61",
+									"type": "text"
+								},
+								{
+									"key": "total_person",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "noted",
+									"value": "meeting futsall",
+									"type": "text"
+								},
+								{
+									"key": "check_out_time",
+									"value": "2021-01-02T22:41:07.064Z",
+									"type": "text"
+								},
+								{
+									"key": "booking_time",
+									"value": "2021-01-01T22:41:07.064Z",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://californian-basin.herokuapp.com/booking/newBook",
+							"protocol": "https",
+							"host": [
+								"californian-basin",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"booking",
+								"newBook"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJ1c2VyQG1haWwuY29tIiwiaWF0IjoxNjA4NDE4MzAwfQ.4E349KO3seJxImal6-5CQ7UAka1cmxaHosldqOX1-0I",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://californian-basin.herokuapp.com/booking/myBooking?id=2",
+							"protocol": "https",
+							"host": [
+								"californian-basin",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"booking",
+								"myBooking"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "put",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "token",
+								"type": "text",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJyYWloYW4uYXJkaWFuYXRhQGdtYWlsLmNvbSIsImlhdCI6MTYwODQ4ODQyM30.qT-d43JwgTnI1HS3c3A3E3l5ceeIr_V-0KAzbCXelV8"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "check_in_time",
+									"value": "2021-08-10T22:41:07.064Z",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://californian-basin.herokuapp.com/booking/myBooking?id=2",
+							"protocol": "https",
+							"host": [
+								"californian-basin",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"booking",
+								"myBooking"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "rooms",
+			"item": [
+				{
+					"name": "room",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzEsImVtYWlsIjoicmFpaGFuLmFyZGlhbmF0YUBnbWFpbC5jb20iLCJpYXQiOjE2MDg3NTcxMTF9.zAsK_cHUtpGW8A67YS1wJrZdHnF_wgo1nsWoHGyBh5o",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://californian-basin.herokuapp.com/rooms",
+							"protocol": "https",
+							"host": [
+								"californian-basin",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"rooms"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
