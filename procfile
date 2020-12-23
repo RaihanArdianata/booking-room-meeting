@@ -1,1 +1,1 @@
-web: node bin/http.jsh
+web: node bin/http.js
