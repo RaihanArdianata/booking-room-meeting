@@ -6,13 +6,6 @@
     "host": "us-cdbr-east-02.cleardb.com",
     "dialect": "mysql"
   },
-  "test": {
-    "username": "b2c57391c27664",
-    "password": "6afa3cc3",
-    "database": "heroku_8ca8d54e512d1da",
-    "host": "us-cdbr-east-02.cleardb.com",
-    "dialect": "mysql"
-  },
   "production": {
     "username": "b2c57391c27664",
     "password": "6afa3cc3",
