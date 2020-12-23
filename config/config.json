@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "db_booking_rooms",
-    "host": "127.0.0.1",
+    "username": "b9131480af260d",
+    "password": "9707cf04",
+    "database": "heroku_5cbfa2223d5dd86",
+    "host": "us-cdbr-iron-east-02.cleardb.net",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "db_booking_rooms",
-    "host": "127.0.0.1",
+    "username": "b9131480af260d",
+    "password": "9707cf04",
+    "database": "heroku_5cbfa2223d5dd86",
+    "host": "us-cdbr-iron-east-02.cleardb.net",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "db_booking_rooms",
-    "host": "127.0.0.1",
+    "username": "b9131480af260d",
+    "password": "9707cf04",
+    "database": "heroku_5cbfa2223d5dd86",
+    "host": "us-cdbr-iron-east-02.cleardb.net",
     "dialect": "mysql"
   }
 }
